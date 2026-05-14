@@ -87,7 +87,6 @@ football-player-statistics/
 ├── app.py                  # Streamlit entry point — UI flow & session state
 ├── requirements.txt        # Python dependencies
 ├── README.md
-├── .gitignore
 ├── data/
 │   └── players_data_light-2025_2026.csv   # 2025/26 Big 5 leagues player stats
 └── src/
