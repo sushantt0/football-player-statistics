@@ -2,8 +2,6 @@
 
 An interactive web dashboard for comparing football players from the 2025/26 season across Europe's Big 5 leagues. Select a position, search for players by name, and compare up to 3 of them side-by-side on a radar chart — all stats calculated per 90 minutes.
 
-[Screenshot: the home screen showing the three position buttons — Defenders, Midfielders, Forwards]
-
 ---
 
 ## 🚀 Live Demo
@@ -15,7 +13,7 @@ https://football-player-statistics-24xappdmpytnzk3sttey8ep.streamlit.app
 ## 📸 Screenshots
 
 **Position picker — home screen**
-[Screenshot: the three large position buttons on the home screen]
+![Home screen](readme_screenshots/Home_screen.png)
 
 **Player search dropdown**
 [Screenshot: the search box with a player name half-typed and the matching dropdown results visible]
