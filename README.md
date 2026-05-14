@@ -8,8 +8,7 @@ An interactive web dashboard for comparing football players from the 2025/26 sea
 
 ## 🚀 Live Demo
 
-> [Add your Streamlit Community Cloud link here once deployed]
-> Deploy free at [share.streamlit.io](https://share.streamlit.io)
+https://football-player-statistics-24xappdmpytnzk3sttey8ep.streamlit.app
 
 ---
 
