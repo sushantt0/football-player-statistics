@@ -109,13 +109,6 @@ football-player-statistics/
 
 ---
 
-## ⚠️ Known Limitations
-
-- **Clean Sheet %** is recorded per-goalkeeper in FBref, not per-defender, so most defenders will show low values on that axis. A future fix would be to scrape FBref's defensive table for per-player block and clearance stats.
-- **No xG / xA** — expected goals and assists are not in this dataset. 
-
----
-
 ## 🔮 Potential Extensions
 
 - Scrape FBref's Passing and Possession tables to add progressive passes, key passes, take-ons, and progressive carries
