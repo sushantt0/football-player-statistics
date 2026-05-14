@@ -16,10 +16,12 @@ https://football-player-statistics-24xappdmpytnzk3sttey8ep.streamlit.app
 ![Home screen](readme_screenshots/Home_screen.png)
 
 **Player search dropdown**
-[Screenshot: the search box with a player name half-typed and the matching dropdown results visible]
+![Player search dropdown](readme_screenshots/dropdown.png)
 
 **Radar chart — 3 players compared**
-[Screenshot: a fully populated radar chart with 3 players, showing the black/red/green lines overlapping, the percentile table above, and the three player chips with remove buttons]
+
+
+![Radar chart comparison](readme_screenshots/comparison.png)
 
 ---
 
