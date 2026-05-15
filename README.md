@@ -1,16 +1,16 @@
-# ⚽ Football Player Statistic Checker
+# Football Player Statistic Checker
 
 An interactive web dashboard for comparing football players from the 2025/26 season across Europe's Big 5 leagues. Select a position, search for players by name, and compare up to 3 of them side-by-side on a radar chart — all stats calculated per 90 minutes.
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 https://football-player-statistics-24xappdmpytnzk3sttey8ep.streamlit.app
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 **Position picker — home screen**
 ![Home screen](readme_screenshots/Home_screen.png)
@@ -25,7 +25,7 @@ https://football-player-statistics-24xappdmpytnzk3sttey8ep.streamlit.app
 
 ---
 
-## ✨ Features
+## Features
 
 - **Position** — choose Defenders, Midfielders, or Forwards before searching, so only relevant players appear
 - **Live search dropdown** — start typing a name and matching players appear instantly
@@ -37,19 +37,19 @@ https://football-player-statistics-24xappdmpytnzk3sttey8ep.streamlit.app
 
 ---
 
-## 📊 Stats by Position
+## Stats by Position
 
 | Position | Stats |
 |---|---|
-| 🛡️ **Defenders** | Tackles Won, Interceptions, Fouls Committed, Clean Sheet %, Yellow Cards |
-| 🎯 **Midfielders** | Interceptions, Tackles Won, Assists, Goals, Shots on Target |
-| ⚡ **Forwards** | Goals, Assists, Shots on Target, Crosses, Fouls Drawn |
+| **Defenders** | Tackles Won, Interceptions, Fouls Committed, Clean Sheet %, Yellow Cards |
+| **Midfielders** | Interceptions, Tackles Won, Assists, Goals, Shots on Target |
+| **Forwards** | Goals, Assists, Shots on Target, Crosses, Fouls Drawn |
 
 Fouls and yellow cards are **inverted** (lower = higher percentile) so the radar always rewards the better player visually.
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 - **Python 3.10+**
 - **[Streamlit](https://streamlit.io)** — web UI and session state
@@ -58,7 +58,7 @@ Fouls and yellow cards are **inverted** (lower = higher percentile) so the radar
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ```bash
 # 1. Clone the repo
@@ -80,7 +80,7 @@ The app will open automatically at `http://localhost:8501`.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 football-player-statistics/
@@ -99,7 +99,7 @@ football-player-statistics/
 
 ---
 
-## 📐 How It Works
+## How It Works
 
 1. **Data loading** — the CSV is loaded once and cached with `@st.cache_data` so the app stays fast.
 2. **Position filtering** — players are categorised by their primary position (the first position listed, e.g. `MF,FW` → MF). Only players with at least 5 full 90-minute periods are shown to avoid noisy stats from tiny sample sizes.
@@ -109,7 +109,7 @@ football-player-statistics/
 
 ---
 
-## 🔮 Potential Extensions
+## Potential Extensions
 
 - Scrape FBref's Passing and Possession tables to add progressive passes, key passes, take-ons, and progressive carries
 - Add xG / xA from FBref's Expected table
@@ -119,6 +119,6 @@ football-player-statistics/
 
 ---
 
-## 📂 Data Source
+## Data Source
 
 Player statistics sourced from [FBref.com](https://fbref.com) — 2025/26 season covering the Premier League, La Liga, Serie A, Bundesliga, and Ligue 1.
